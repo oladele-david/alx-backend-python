@@ -4,6 +4,6 @@ the string representation of the float."""
 from typing import Union
 
 
-def to_str(n: Union[int, float]) -> str:
+def to_str(n: float) -> str:
     """Return the string representation of the float."""
     return str(n)
